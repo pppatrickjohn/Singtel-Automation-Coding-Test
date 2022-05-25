@@ -1,0 +1,27 @@
+Necessary Details for Running the Project : 
+Pre-Requisites :
+1. Make Sure Java JDK is installed in the machine. (Can be downloaded in https://www.oracle.com/java/technologies/downloads/)
+2. Add JAVA_HOME in environment variables.
+    a. Right click on This PC -> Select Properties -> Select Advanced System Settings -> Click Environment Variable
+    b. Add JAVA_HOME in Variables and System Variables then put in the value your jdk location e.g. C:\Program Files\Java\jdk1.8.0_271
+3. Make sure Maven is installed in your machine. (Can be downloaded in https://maven.apache.org/download.cgi)
+4. Add M2_HOME in environment variables.
+    a. Right click on This PC -> Select Properties -> Select Advanced System Settings -> Click Environment Variable
+    b. Add M2_HOME in Variables and System Variables then put in the value your maven file location. e.g. C:\apache-maven-3.8.5\bin
+5. Add MAVEN_HOME in environment variables.
+    a. Right click on This PC -> Select Properties -> Select Advanced System Settings -> Click Environment Variable
+    b. Add MAVEN_HOME in Variables and System Variables then put in the value your maven file location. e.g. C:\apache-maven-3.8.5\bin
+6. Click Ok.
+7. Click again Ok
+8. In this Repository update the run.bat 1st line with the location of the project upon cloning it. 
+
+Running the Project :
+1. Once all pre-requisites are made and completed click the run.bat from the folder.
+2. Execution should happen until upon its completion of build.
+3. Files will be generated including the report.
+4. Report can be seen in the Project Folder/Report/.
+5. Report should also show the Executed Scenarios together with the steps and each result.
+
+Accessing the created Test Cases/Scenario :
+1. On the Project, go to Features File.
+2. From the Features you can open the AddToDo.feature to check on the Test Cases. 
